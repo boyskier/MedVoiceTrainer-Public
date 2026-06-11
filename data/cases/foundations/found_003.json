@@ -1,0 +1,32 @@
+{
+  "id": "found_003",
+  "system": "foundations",
+  "difficulty": "beginner",
+  "eval_template": "foundations",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Susan Lee",
+  "age": 41,
+  "gender": "female",
+  "chief_complaint": "feeling tired all the time for the past month",
+  "hpi_details": "low energy during the day, finds it hard to get out of bed, going to sleep late because of phone use and waking early. Appetite is normal, mood is a bit low but not sad all day, no weight change, no fever. Drinks three or four cups of coffee a day.",
+  "ideas": "thinks it is because she is not sleeping well",
+  "concerns": "worried the tiredness is affecting her work and family",
+  "expectations": "wants advice on how to get more energy",
+  "pmh": "none",
+  "medications": "none",
+  "social_hx": "works in an office, two children at home, does not smoke, rarely exercises",
+  "learning_objectives": [
+    "Practise everyday clinical conversation about lifestyle, sleep, and energy",
+    "Ask simple lifestyle questions: sleep, caffeine, exercise, daily routine",
+    "Use plain, encouraging language when giving advice",
+    "Acknowledge the impact of the symptom on the patient's work and family"
+  ],
+  "suggested_questions": [
+    "What's been going on?",
+    "How has your sleep been lately?",
+    "How many cups of coffee do you drink in a day?",
+    "How is the tiredness affecting your work and home life?",
+    "Do you get any time to exercise or relax?"
+  ]
+}

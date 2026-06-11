@@ -1,0 +1,80 @@
+{
+  "scenarios": [
+    {
+      "id": "behavioral_001",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Chen",
+      "program": "University Hospital Internal Medicine",
+      "category": "behavioral",
+      "opening_question": "Tell me about yourself and your journey to internal medicine.",
+      "follow_up_pool": [
+        "Why internal medicine specifically?",
+        "What has been your most challenging clinical experience?",
+        "Tell me about a time you handled a difficult patient interaction.",
+        "Describe a situation where you had to work as part of a team under pressure.",
+        "What do you consider your greatest professional strength?"
+      ],
+      "img_specific": false
+    },
+    {
+      "id": "behavioral_002",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Patel",
+      "program": "Lakeside Medical Center Internal Medicine",
+      "category": "behavioral",
+      "opening_question": "Walk me through a time you made a clinical error and what you learned from it.",
+      "follow_up_pool": [
+        "How did you disclose the error to the patient or family?",
+        "What systems-based changes did you advocate for after this incident?",
+        "How do you ensure quality and safety in your daily practice?",
+        "Tell me about a time you disagreed with a senior colleague."
+      ],
+      "img_specific": false
+    },
+    {
+      "id": "behavioral_003",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Williams",
+      "program": "Riverside Academic Medical Center",
+      "category": "behavioral",
+      "opening_question": "Describe a patient who had a significant impact on you as a physician.",
+      "follow_up_pool": [
+        "What did that experience teach you about the doctor-patient relationship?",
+        "How do you handle emotional situations in medicine — do you feel it affects your clinical judgment?",
+        "Tell me about a time you had to deliver difficult news to a patient.",
+        "What self-care strategies do you use to prevent burnout?"
+      ],
+      "img_specific": false
+    },
+    {
+      "id": "behavioral_004",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Kim",
+      "program": "Metro University Hospital IM",
+      "category": "behavioral",
+      "opening_question": "Why did you choose to apply to residency in the United States rather than staying in your home country?",
+      "follow_up_pool": [
+        "What specific aspects of US medicine drew you here?",
+        "Do you plan to stay in the US long-term or return to your home country?",
+        "How will your international background benefit our program?",
+        "What challenges do you anticipate adapting to US clinical culture?"
+      ],
+      "img_specific": false
+    },
+    {
+      "id": "behavioral_005",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Thompson",
+      "program": "Valley General Hospital IM",
+      "category": "behavioral",
+      "opening_question": "What are your career goals after residency — where do you see yourself in 10 years?",
+      "follow_up_pool": [
+        "Are you considering a fellowship? Which subspecialty and why?",
+        "How does this program fit into your long-term career plan?",
+        "What research or academic interests do you have?",
+        "How would you contribute to our program beyond clinical duties?"
+      ],
+      "img_specific": false
+    }
+  ]
+}

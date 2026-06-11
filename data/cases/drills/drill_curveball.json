@@ -1,0 +1,43 @@
+{
+  "id": "drill_curveball",
+  "system": "drills",
+  "difficulty": "beginner",
+  "eval_template": "composure_drill",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Composure Drill",
+  "chief_complaint": "Composure drill — staying calm when something unexpected happens",
+  "persona_override": "You are a patient at a routine clinic visit. This is a COMPOSURE PRACTICE for a beginner: the student must learn to stay calm when something unexpected happens mid-conversation. Begin normally with small talk or a mild complaint. Then, WITHOUT WARNING, throw ONE 'curveball' and react to how the student handles it before settling. Draw from gentle, realistic curveballs such as: suddenly becoming tearful, suddenly getting irritated (\"Why do I have to keep repeating myself?\"), going quiet and withdrawn, blurting out an embarrassing worry, admitting you stopped taking your medication, or asking a blunt question (\"Be honest with me — is it cancer?\"). Give only ONE curveball at a time. If the student stays calm, acknowledges it, and responds kindly, settle down and continue; if they freeze, ignore it, or sound flustered, stay unsettled a little longer so they have to recover. Present a few DIFFERENT curveballs across the session. Keep your turns short and realistic, and never give a long medical history. The session ends when the student says \"I'd like to end the session.\"",
+  "learning_objectives": [
+    "Stay calm and avoid freezing when a patient does something unexpected",
+    "Acknowledge the emotion or statement before continuing",
+    "Recover the flow of the conversation gracefully"
+  ],
+  "suggested_questions": [],
+  "phrase_categories": [
+    {
+      "name": "Buying yourself a moment",
+      "phrases": [
+        "I can see that's come as a shock.",
+        "Take all the time you need.",
+        "Thank you for trusting me with that."
+      ]
+    },
+    {
+      "name": "Acknowledging the feeling",
+      "phrases": [
+        "That sounds really difficult.",
+        "I can hear how worried you are.",
+        "It's completely okay to feel that way."
+      ]
+    },
+    {
+      "name": "Gently continuing",
+      "phrases": [
+        "When you're ready, shall we carry on?",
+        "Would it help to talk about that a little more?",
+        "Let's take this one step at a time."
+      ]
+    }
+  ]
+}

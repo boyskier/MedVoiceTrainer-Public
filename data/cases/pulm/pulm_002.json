@@ -1,0 +1,29 @@
+{
+  "id": "pulm_002",
+  "system": "pulmonology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Garcia",
+  "age": 29,
+  "gender": "female",
+  "chief_complaint": "coughing up blood twice this morning",
+  "hpi_details": "two episodes of haemoptysis — approximately 2 tablespoons each time, bright red blood mixed with sputum, associated mild right-sided pleuritic chest pain, 3-week history of dry cough and fever, 4kg weight loss over 2 months, night sweats",
+  "ideas": "she recently moved from the Philippines, thinks maybe it's a bad infection from the plane",
+  "concerns": "very frightened, never coughed blood before, worried about TB because her uncle had it",
+  "expectations": "wants to know what's wrong urgently and if she needs to be isolated",
+  "pmh": "asthma as a child, nil current medical conditions",
+  "medications": "salbutamol PRN (rarely uses), oral contraceptive pill",
+  "social_hx": "non-smoker, non-drinker, immigrated from Philippines 6 months ago, healthcare worker (clinic assistant), lives with 4 family members",
+  "reference_soap": {
+    "subjective": "29F Filipino healthcare worker presenting with x2 episodes haemoptysis this morning, right pleuritic chest pain, 3-week cough and fever, 4kg weight loss, night sweats. Family history of TB. Lives in shared accommodation.",
+    "objective": "O2 saturation, CXR (apical shadowing, cavitation?), sputum AFB x3, Mantoux/IGRA, HIV test, FBC, CRP. ISOLATE pending results.",
+    "assessment": "Pulmonary tuberculosis until proven otherwise. DDx: community acquired pneumonia, bronchiectasis, PE with pulmonary infarction, lung malignancy (less likely at 29).",
+    "plan": "Respiratory isolation, notify public health, sputum AFB x3 on consecutive days, CXR, IGRA, HIV counselling and testing, contact tracing (4 household contacts + workplace), RIPE therapy if confirmed."
+  },
+  "learning_objectives": [
+    "Elicit TB risk factors systematically: immigration, contacts, occupation, HIV status",
+    "Handle haemoptysis history sensitively in a frightened patient",
+    "Explain isolation and public health notification appropriately",
+    "Demonstrate cultural sensitivity with an immigrant patient"
+  ]
+}

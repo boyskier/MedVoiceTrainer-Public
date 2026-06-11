@@ -1,0 +1,29 @@
+{
+  "id": "cardio_001",
+  "system": "cardiology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Johnson",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "chest pain for 2 hours",
+  "hpi_details": "substernal, 7/10, radiates to left arm, onset at rest, no relief with antacids",
+  "ideas": "thinks it might be heartburn",
+  "concerns": "afraid of heart attack — father died of MI at 62",
+  "expectations": "wants reassurance and something for the pain",
+  "pmh": "hypertension x5 years, type 2 diabetes x3 years",
+  "medications": "metformin 1000mg BD, lisinopril 10mg OD",
+  "social_hx": "smoker 20 pack-years, 2 beers/night, retired",
+  "reference_soap": {
+    "subjective": "58M presenting with 2hr substernal chest pain 7/10, radiating to left arm, onset at rest. Denies relief with antacids. PMH: HTN, T2DM. Smokes 20 pack-years.",
+    "objective": "Vitals pending. ECG, troponins required.",
+    "assessment": "ACS until proven otherwise. DDx: STEMI, NSTEMI, unstable angina, aortic dissection, PE.",
+    "plan": "ECG, troponin x2, CXR, aspirin 325mg, IV access, O2, cardiology consult, NPO."
+  },
+  "learning_objectives": [
+    "Elicit cardiac history systematically using SOCRATES",
+    "Explore cardiac risk factors: HTN, DM, smoking, family Hx, dyslipidaemia",
+    "Address patient's ICE — especially fear of MI",
+    "Verbalize ACS differential and dangerous diagnosis first"
+  ]
+}

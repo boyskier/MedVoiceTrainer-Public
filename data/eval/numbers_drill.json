@@ -1,0 +1,91 @@
+{
+  "name": "Numbers Drill — Doses, Vitals, Dates & Spelling",
+  "learner_level": "preclinical",
+  "_note": "Skill drill. Standard 4 metric keys re-pitched: medical_accuracy = correctness of the value spoken, clinical_reasoning slot = correct spoken conventions, communication_fluency = clarity of digit/letter pronunciation (the drill's focus).",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences throughout",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors but understandable",
+        "3-4": "Frequent errors; listener must work",
+        "1-2": "Errors block most sentences"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Accuracy of Values",
+      "anchors": {
+        "9-10": "Every number, dose, date, and spelling is stated correctly",
+        "7-8": "Mostly correct; rare slip",
+        "5-6": "Some values wrong or incomplete",
+        "3-4": "Several values incorrect",
+        "1-2": "Values are unreliable"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Correct Spoken Conventions",
+      "anchors": {
+        "9-10": "Natural conventions: 'one-forty over ninety', '500 milligrams twice daily', dates and units said the way clinicians do",
+        "7-8": "Mostly conventional; minor awkwardness",
+        "5-6": "Understandable but uses non-standard or literal forms",
+        "3-4": "Often non-standard, risking confusion",
+        "1-2": "Conventions wrong enough to be unsafe"
+      }
+    },
+    "communication_fluency": {
+      "label": "Clarity of Speech",
+      "anchors": {
+        "9-10": "Digits and letters are crisp and unambiguous",
+        "7-8": "Mostly clear; rare ambiguity",
+        "5-6": "Some digits/letters hard to catch",
+        "3-4": "Frequently unclear; needs repetition",
+        "1-2": "Numbers/spelling cannot be reliably understood"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "stated blood pressure in natural spoken form (e.g. 'one-forty over ninety')",
+      "required": true
+    },
+    {
+      "item": "stated a dose with both amount and unit (e.g. '500 milligrams')",
+      "required": true
+    },
+    {
+      "item": "stated a frequency clearly (e.g. 'twice a day')",
+      "required": true
+    },
+    {
+      "item": "said a date in a clear, natural way",
+      "required": false
+    },
+    {
+      "item": "spelled a name clearly, letter by letter",
+      "required": true
+    },
+    {
+      "item": "self-corrected or repeated when something was unclear",
+      "required": false
+    }
+  ],
+  "reference_output_type": "none"
+}

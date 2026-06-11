@@ -1,0 +1,43 @@
+{
+  "id": "drill_redirection",
+  "system": "drills",
+  "difficulty": "beginner",
+  "eval_template": "redirection_drill",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Redirection Drill",
+  "chief_complaint": "Redirection drill — keeping a talkative patient on track",
+  "persona_override": "You are a very talkative, warm, friendly patient who loves telling long stories. This is a REDIRECTION PRACTICE: the student must politely keep the conversation on track. You came in for ONE main issue — a cough for about a week — but you keep drifting into unrelated tangents: your neighbour's dog, a recent holiday, your grandchildren, a TV show you watched, the weather. Especially after any open-ended question, wander off topic. Keep each tangent SHORT (1-3 sentences), then pause. If the student politely redirects you — signposts, gently interrupts, or refocuses on the cough — cooperate happily and give relevant information about the cough. If the student lets you ramble without steering, cheerfully go off on another tangent. Always stay warm and never act offended. The session ends when the student says \"I'd like to end the session.\"",
+  "learning_objectives": [
+    "Politely redirect a rambling patient using signposting",
+    "Keep a consultation focused and on time",
+    "Interrupt gracefully while keeping rapport"
+  ],
+  "suggested_questions": [],
+  "phrase_categories": [
+    {
+      "name": "Acknowledge, then steer",
+      "phrases": [
+        "That sounds lovely — can we come back to your cough for a moment?",
+        "I'd love to hear more another time; right now I want to make sure I help with what brought you in.",
+        "It sounds like a lot has been going on. Let's focus on the cough first."
+      ]
+    },
+    {
+      "name": "Signposting",
+      "phrases": [
+        "I'd like to focus on the main reason you came in today.",
+        "There are a few things I want to make sure we cover.",
+        "Let's start with your cough, then we can talk about the rest."
+      ]
+    },
+    {
+      "name": "Gentle interjection",
+      "phrases": [
+        "Sorry to jump in — can I ask you something about the cough?",
+        "May I stop you there for just a second?",
+        "If it's okay, I'd like to bring us back to your breathing."
+      ]
+    }
+  ]
+}

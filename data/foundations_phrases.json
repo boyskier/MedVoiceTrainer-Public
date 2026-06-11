@@ -1,0 +1,71 @@
+{
+  "_note": "Sample utterances shown as a live cue card during Foundations sessions only. Beginners can read these aloud. Plain, high-frequency clinical English.",
+  "categories": [
+    {
+      "name": "1) Greeting & introducing yourself",
+      "phrases": [
+        "Hello, my name is ___. I'm a medical student.",
+        "Nice to meet you. May I check your name, please?",
+        "How would you like me to call you?",
+        "Is it okay if I ask you some questions about how you're feeling?"
+      ]
+    },
+    {
+      "name": "2) Opening — let the patient talk",
+      "phrases": [
+        "What brings you in today?",
+        "How can I help you today?",
+        "Tell me more about that.",
+        "Please go on, I'm listening."
+      ]
+    },
+    {
+      "name": "3) Asking about the symptom (plain SOCRATES)",
+      "phrases": [
+        "When did it start?",
+        "Where exactly do you feel it?",
+        "Can you describe what it feels like?",
+        "On a scale of one to ten, how bad is it?",
+        "Does anything make it better or worse?",
+        "Has it changed since it started?"
+      ]
+    },
+    {
+      "name": "4) Following up & checking",
+      "phrases": [
+        "Could you say a little more about that?",
+        "Just to make sure I understand, you mean ___?",
+        "Has anything like this happened before?",
+        "Is there anything else that's been bothering you?"
+      ]
+    },
+    {
+      "name": "5) Showing empathy",
+      "phrases": [
+        "That sounds really difficult.",
+        "I can see this is worrying you.",
+        "Thank you for telling me that.",
+        "It's understandable to feel that way.",
+        "Take your time, there's no rush."
+      ]
+    },
+    {
+      "name": "6) Checking understanding & explaining simply",
+      "phrases": [
+        "Let me make sure I've understood you correctly.",
+        "Would it help if I explained that in a simpler way?",
+        "Does that make sense so far?",
+        "Please stop me if anything is unclear."
+      ]
+    },
+    {
+      "name": "7) Closing the conversation",
+      "phrases": [
+        "Is there anything you'd like to ask me?",
+        "Do you have any concerns we haven't talked about?",
+        "Thank you for your time today.",
+        "I'd like to summarize what we've discussed."
+      ]
+    }
+  ]
+}

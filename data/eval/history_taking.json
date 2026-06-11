@@ -1,0 +1,139 @@
+{
+  "name": "History Taking — General",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "history_completeness",
+    "ice_empathy",
+    "soap_note",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Language",
+      "anchors": {
+        "9-10": "No errors; native-like medical register throughout",
+        "7-8": "Occasional minor errors; fully intelligible; appropriate register",
+        "5-6": "Some structural errors requiring listener effort",
+        "3-4": "Frequent errors; occasionally unclear",
+        "1-2": "Very frequent errors; comprehension significantly impaired"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Medical Accuracy",
+      "anchors": {
+        "9-10": "All medical terminology and clinical facts correct",
+        "7-8": "Minor imprecision; no dangerous errors",
+        "5-6": "Some incorrect terminology or clinical reasoning",
+        "3-4": "Multiple clinical errors",
+        "1-2": "Significant dangerous errors"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Clinical Reasoning",
+      "anchors": {
+        "9-10": "Clear differential verbalized; dangerous diagnosis prioritized; systematic approach",
+        "7-8": "Reasonable differential implied; key risk factors explored",
+        "5-6": "Some structured reasoning but key items missed",
+        "3-4": "Unfocused questioning; no apparent differential",
+        "1-2": "No evidence of clinical reasoning"
+      }
+    },
+    "communication_fluency": {
+      "label": "Communication Fluency",
+      "anchors": {
+        "9-10": "Smooth, natural pacing; appropriate signposting; no disruptive hesitation",
+        "7-8": "Occasional hesitation; mostly smooth transitions",
+        "5-6": "Noticeable hesitation or awkward phrasing",
+        "3-4": "Frequent pauses; communication disrupted",
+        "1-2": "Communication severely disrupted by fluency issues"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "onset and duration elicited",
+      "required": true
+    },
+    {
+      "item": "character and severity (1-10 scale)",
+      "required": true
+    },
+    {
+      "item": "radiation or spread asked",
+      "required": true
+    },
+    {
+      "item": "alleviating and aggravating factors",
+      "required": true
+    },
+    {
+      "item": "associated symptoms explored",
+      "required": true
+    },
+    {
+      "item": "relevant risk factors elicited",
+      "required": true
+    },
+    {
+      "item": "past medical history asked",
+      "required": true
+    },
+    {
+      "item": "current medications asked",
+      "required": true
+    },
+    {
+      "item": "social history (smoking, alcohol, occupation)",
+      "required": false
+    },
+    {
+      "item": "ICE explored — ideas",
+      "required": true
+    },
+    {
+      "item": "ICE explored — concerns",
+      "required": true
+    },
+    {
+      "item": "ICE explored — expectations",
+      "required": true
+    },
+    {
+      "item": "empathetic response to patient emotion",
+      "required": true
+    },
+    {
+      "item": "differential verbalized to patient",
+      "required": false
+    },
+    {
+      "item": "management plan communicated",
+      "required": false
+    },
+    {
+      "item": "used Teach-back method to verify patient understanding",
+      "required": false
+    }
+  ],
+  "empathy_markers": [
+    "acknowledged patient concern explicitly",
+    "used patient's name at least once",
+    "reflective listening phrase used",
+    "appropriate pause/space given for patient emotion",
+    "normalized patient's worry or fear"
+  ],
+  "reference_output_type": "soap"
+}

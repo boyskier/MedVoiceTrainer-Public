@@ -1,0 +1,33 @@
+{
+  "id": "found_002",
+  "system": "foundations",
+  "difficulty": "beginner",
+  "eval_template": "foundations",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "David Miller",
+  "age": 35,
+  "gender": "male",
+  "chief_complaint": "headaches in the afternoons for about two weeks",
+  "hpi_details": "a dull, tight, band-like ache across the forehead, usually later in the day, mild to moderate, eased a little by resting, no vomiting, no visual changes, no weakness. Has been busy and stressed at work and sleeping poorly.",
+  "ideas": "thinks it might be from stress and staring at the computer",
+  "concerns": "a little worried it could be something serious in the brain",
+  "expectations": "wants reassurance and simple advice",
+  "pmh": "none",
+  "medications": "occasional paracetamol",
+  "social_hx": "office worker, drinks coffee, does not smoke",
+  "learning_objectives": [
+    "Practise asking a patient to describe pain in plain language (where, what kind, how strong, when)",
+    "Use simple descriptive vocabulary: dull, tight, band-like, ache, mild, moderate",
+    "Respond with empathy to the patient's worry about something serious",
+    "Reassure and check the patient's understanding before closing"
+  ],
+  "suggested_questions": [
+    "Can you tell me about your headaches?",
+    "Where exactly do you feel the pain?",
+    "What does the pain feel like?",
+    "When during the day does it usually happen?",
+    "Have you been feeling stressed or sleeping poorly?",
+    "I can see this is worrying you. What are you most concerned about?"
+  ]
+}

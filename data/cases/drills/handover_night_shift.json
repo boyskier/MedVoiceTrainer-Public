@@ -1,0 +1,47 @@
+{
+  "id": "handover_night_shift",
+  "system": "drills",
+  "difficulty": "intermediate",
+  "eval_template": "sbar_handover",
+  "chief_complaint": "SBAR phone handover — new chest-pain admission",
+  "category": "Interprofessional",
+  "patient_name": "Dr. Davis (Night-shift Attending)",
+  "title": "SBAR: Night-shift Admission",
+  "summary": "You are a day-shift intern signing out a newly admitted patient to the night-shift attending. Use the SBAR framework to convey the information.",
+  "suggested_questions": [
+    "Hi Dr. Davis, this is [Your Name]. I have an admission to hand over.",
+    "The patient is a 65-year-old male presenting with chest pain...",
+    "My assessment is likely ACS, and I recommend we start him on a heparin drip."
+  ],
+  "phrase_categories": [
+    {
+      "name": "Situation",
+      "phrases": [
+        "I am calling to hand over...",
+        "I have a new admission for you."
+      ]
+    },
+    {
+      "name": "Background",
+      "phrases": [
+        "He has a history of...",
+        "His vitals are currently stable."
+      ]
+    },
+    {
+      "name": "Assessment",
+      "phrases": [
+        "I suspect he has...",
+        "My working diagnosis is..."
+      ]
+    },
+    {
+      "name": "Recommendation",
+      "phrases": [
+        "I recommend we...",
+        "Could you please review his labs when they result?"
+      ]
+    }
+  ],
+  "persona_override": "You are Dr. Davis, a busy and slightly impatient night-shift attending physician. You are receiving a patient handover from an intern over the phone.\n\nYou expect the intern to use the SBAR format (Situation, Background, Assessment, Recommendation).\nIf they ramble or provide disorganised information, interrupt them and say 'Can you get to the point? What is the Situation and what do you want me to do?'\n\nPatient Details (for your reference, the intern should tell you this):\n- Mr. John Smith, 65M.\n- Presented with 2 hours of crushing chest pain.\n- PMH: Hypertension, Type 2 DM.\n- Vitals: HR 95, BP 150/90, SpO2 96% on RA.\n- ECG shows ST depressions in V4-V6.\n- Troponin is pending.\n\nYour behavioral guidelines:\n- Answer the phone quickly: 'Davis here, what's up?'\n- If the intern misses a part of SBAR (e.g. forgets to say their Assessment), ask 'So what do you think is going on?'\n- Once they provide a clear Recommendation (e.g. 'admit for ACS protocol, monitor troponins'), agree and end the call: 'Got it, I'll keep an eye on him. Thanks.' Then the session ends."
+}

@@ -1,0 +1,46 @@
+{
+  "name": "SBAR Handover",
+  "description": "Evaluates a handover to another healthcare professional using the Situation, Background, Assessment, Recommendation framework.",
+  "metrics": {
+    "fluency": {
+      "label": "Language & Fluency",
+      "anchors": {
+        "8-10": "Clear, fluent, near-native phrasing.",
+        "5-7": "Understandable but occasional hesitations or grammar errors.",
+        "1-4": "Frequent errors that impede understanding."
+      }
+    },
+    "medical_accuracy": {
+      "label": "Medical Terminology & Accuracy",
+      "anchors": {
+        "8-10": "Uses appropriate terminology naturally.",
+        "5-7": "Mostly accurate, some colloquialisms instead of professional terms.",
+        "1-4": "Misuses terms in ways that could cause clinical errors."
+      }
+    },
+    "sbar_completeness": {
+      "label": "SBAR Completeness",
+      "anchors": {
+        "8-10": "Clearly articulates Situation, Background, Assessment, and Recommendation.",
+        "5-7": "Misses one component or jumbles the order.",
+        "1-4": "Missing multiple components or highly disorganized."
+      }
+    },
+    "professionalism": {
+      "label": "Professionalism & Communication",
+      "anchors": {
+        "8-10": "Respectful, concise, and handles questions gracefully.",
+        "5-7": "Mostly respectful but may get flustered.",
+        "1-4": "Rude, defensive, or overly verbose without getting to the point."
+      }
+    }
+  },
+  "checklist": [
+    {"item": "Stated the Situation (who, where, why)", "required": true},
+    {"item": "Provided relevant Background (PMH, events leading up)", "required": true},
+    {"item": "Gave a clear Assessment (suspected diagnosis or clinical status)", "required": true},
+    {"item": "Made a specific Recommendation (admit, review, prescribe)", "required": true},
+    {"item": "Confirmed the receiving clinician understood or accepted the plan", "required": false}
+  ],
+  "output_sections": ["scores", "checklist", "corrections", "summary"]
+}

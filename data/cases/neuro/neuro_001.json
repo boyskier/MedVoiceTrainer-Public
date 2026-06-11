@@ -1,0 +1,29 @@
+{
+  "id": "neuro_001",
+  "system": "neurology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Chen",
+  "age": 67,
+  "gender": "female",
+  "chief_complaint": "sudden weakness in right arm and slurred speech this morning, lasted 20 minutes then resolved",
+  "hpi_details": "sudden onset right arm weakness and dysarthria, lasted approximately 20 minutes then completely resolved, no headache, no visual changes, no loss of consciousness, first episode ever",
+  "ideas": "thinks she was just tired and stressed",
+  "concerns": "daughter insisted she come in — she didn't think it was serious",
+  "expectations": "wants to go home quickly as she has grandchildren to look after",
+  "pmh": "hypertension, hypercholesterolaemia, type 2 diabetes",
+  "medications": "amlodipine 5mg OD, atorvastatin 40mg ON, metformin 500mg BD",
+  "social_hx": "non-smoker, non-drinker, lives with husband, independent in all ADLs, retired teacher",
+  "reference_soap": {
+    "subjective": "67F with HTN, hypercholesterolaemia, T2DM presents with sudden-onset right arm weakness and dysarthria lasting ~20 min then completely resolving. First episode. No headache or visual loss.",
+    "objective": "Neurological exam (currently normal), BP both arms, ECG (AF?), bloods: FBC, glucose, lipids, coag, CT head (rule out haemorrhage), carotid Doppler, echo if indicated.",
+    "assessment": "TIA — high stroke risk. ABCD2 score required. DDx: focal seizure, hypoglycaemia, hemiplegic migraine, Todd's paresis.",
+    "plan": "Admit for stroke unit monitoring (high early stroke risk post-TIA), dual antiplatelet therapy (aspirin 300mg + clopidogrel 75mg), statin, BP control, carotid imaging, ECG monitoring x72h for paroxysmal AF, patient education on FAST warning signs."
+  },
+  "learning_objectives": [
+    "Characterise TIA: sudden onset, brief duration, complete resolution",
+    "Calculate ABCD2 score and explain stroke urgency",
+    "Identify modifiable vascular risk factors",
+    "Counsel patient who is reluctant to stay in hospital"
+  ]
+}

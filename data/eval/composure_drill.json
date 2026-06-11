@@ -1,0 +1,99 @@
+{
+  "name": "Composure Drill — Handling the Unexpected",
+  "learner_level": "preclinical",
+  "_note": "Skill drill. Standard 4 metric keys re-pitched: medical_accuracy = appropriateness of the response, clinical_reasoning slot = composure & acknowledgement (the focus), communication_fluency = smooth recovery.",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "ice_empathy",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences even under pressure",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors but understandable",
+        "3-4": "Errors increase noticeably when surprised",
+        "1-2": "Errors block most sentences"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Appropriateness of Response",
+      "anchors": {
+        "9-10": "Response fits the moment perfectly — safe, kind, and on-point",
+        "7-8": "Appropriate; minor missteps",
+        "5-6": "Mostly okay but a little off-key",
+        "3-4": "Response often doesn't fit the situation",
+        "1-2": "Response is inappropriate or unsafe"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Composure & Acknowledgement",
+      "anchors": {
+        "9-10": "Stays calm, names/acknowledges the surprise, and handles it warmly",
+        "7-8": "Composed; acknowledges the shift with minor lapses",
+        "5-6": "A bit rattled but recovers; partial acknowledgement",
+        "3-4": "Visibly thrown; ignores or glosses over the curveball",
+        "1-2": "Freezes or panics; no acknowledgement"
+      }
+    },
+    "communication_fluency": {
+      "label": "Recovery & Flow",
+      "anchors": {
+        "9-10": "Smoothly absorbs the surprise and continues naturally",
+        "7-8": "Brief pause, then recovers well",
+        "5-6": "Noticeable freeze before recovering",
+        "3-4": "Long stalls; flow badly disrupted",
+        "1-2": "Cannot recover the conversation"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "stayed calm and did not freeze when the curveball came",
+      "required": true
+    },
+    {
+      "item": "acknowledged the patient's sudden emotion or statement",
+      "required": true
+    },
+    {
+      "item": "responded with empathy before moving on",
+      "required": true
+    },
+    {
+      "item": "gently steered the conversation back on track",
+      "required": false
+    },
+    {
+      "item": "did NOT ignore or talk over the curveball",
+      "required": true
+    },
+    {
+      "item": "avoided panicking or making over-promises (e.g. 'everything will be fine')",
+      "required": false
+    }
+  ],
+  "empathy_markers": [
+    "named or acknowledged the sudden emotion",
+    "validated the patient's reaction",
+    "stayed warm under pressure",
+    "gave the patient a moment",
+    "avoided premature reassurance"
+  ],
+  "reference_output_type": "none"
+}

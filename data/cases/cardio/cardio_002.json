@@ -1,0 +1,29 @@
+{
+  "id": "cardio_002",
+  "system": "cardiology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Park",
+  "age": 72,
+  "gender": "female",
+  "chief_complaint": "swollen ankles and shortness of breath for 3 weeks",
+  "hpi_details": "bilateral pitting oedema to mid-shin, orthopnoea (3 pillows), PND, dyspnoea on minimal exertion (walking 20 metres), no chest pain",
+  "ideas": "thinks her old heart condition is acting up again",
+  "concerns": "worried she'll end up in hospital again like last year",
+  "expectations": "wants her water tablets reviewed",
+  "pmh": "heart failure (EF 35%, diagnosed 2 years ago), atrial fibrillation, hypertension",
+  "medications": "furosemide 40mg OD, bisoprolol 5mg OD, ramipril 5mg OD, warfarin (INR target 2-3)",
+  "social_hx": "non-smoker, non-drinker, lives alone, daughter checks in daily",
+  "reference_soap": {
+    "subjective": "72F with known HFrEF presents with 3-week worsening bilateral ankle oedema, orthopnoea (3 pillows), PND, and markedly reduced exercise tolerance. No chest pain.",
+    "objective": "Likely fluid overload. Requires weight, JVP, lung auscultation, BNP, renal function, ECG.",
+    "assessment": "Decompensated heart failure. DDx: medication non-compliance, dietary Na excess, worsening AF rate control, renal deterioration, new ischaemic event.",
+    "plan": "Increase furosemide, strict fluid and sodium restriction, weigh daily, check renal function and electrolytes, consider cardiology review. Assess compliance."
+  },
+  "learning_objectives": [
+    "Systematically elicit heart failure symptoms (oedema, orthopnoea, PND, dyspnoea)",
+    "Explore precipitating factors for decompensation",
+    "Review medication compliance and dietary history",
+    "Address patient concerns about hospitalisation"
+  ]
+}

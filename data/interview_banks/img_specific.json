@@ -1,0 +1,94 @@
+{
+  "scenarios": [
+    {
+      "id": "img_001",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Anderson",
+      "program": "Community Medical Center Internal Medicine",
+      "category": "img_specific",
+      "opening_question": "Can you walk me through your medical training pathway outside of the United States?",
+      "follow_up_pool": [
+        "What challenges do you anticipate adapting to the US healthcare system?",
+        "How will you handle the cultural differences in patient communication?",
+        "What is your visa status and do you need sponsorship?",
+        "How have your USMLE scores prepared you for clinical practice here?",
+        "What support system do you have in place to help you through residency?"
+      ],
+      "img_specific": true
+    },
+    {
+      "id": "img_002",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Martinez",
+      "program": "Northern Regional Medical Center IM",
+      "category": "img_specific",
+      "opening_question": "Your step scores and clinical experience are impressive — but how do we know you'll adapt to the US residency culture and pace?",
+      "follow_up_pool": [
+        "Have you done any observerships or clinical rotations in the US?",
+        "Describe a time you had to adapt to a completely new clinical environment.",
+        "What specific differences between US medicine and the medicine practiced in your home country have you already encountered?",
+        "How do you handle feedback — especially critical feedback from attendings?"
+      ],
+      "img_specific": true
+    },
+    {
+      "id": "img_003",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Johnson",
+      "program": "Eastside University Hospital IM",
+      "category": "img_specific",
+      "opening_question": "There is a gap in your application between graduation and your USMLE exams. Can you explain that period?",
+      "follow_up_pool": [
+        "What did you do during that time professionally or academically?",
+        "What would you say to concerns that this gap indicates a lack of dedication?",
+        "How did that experience shape you as a physician?",
+        "Are you prepared for the intensity of a US internal medicine residency?"
+      ],
+      "img_specific": true
+    },
+    {
+      "id": "clinical_001",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Lee",
+      "program": "St. Catherine Medical Center IM",
+      "category": "clinical",
+      "opening_question": "Tell me about a complex case you managed — walk me through your reasoning.",
+      "follow_up_pool": [
+        "What was the most difficult differential you had to work through in that case?",
+        "Were there any diagnostic pitfalls you nearly fell into?",
+        "How did you communicate the plan to the patient and family?",
+        "Looking back, what would you do differently?"
+      ],
+      "img_specific": false
+    },
+    {
+      "id": "clinical_002",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Brown",
+      "program": "Mercy General Hospital IM",
+      "category": "clinical",
+      "opening_question": "You are a first-year resident and your patient deteriorates overnight — BP 80/50, HR 120. Walk me through how you handle the first 15 minutes.",
+      "follow_up_pool": [
+        "When do you call your senior for help — and how do you frame that call?",
+        "The attending is unavailable. The patient needs a procedure you've never done. What do you do?",
+        "How do you involve the patient's family in an acute situation when the patient can't speak for themselves?"
+      ],
+      "img_specific": false
+    },
+    {
+      "id": "clinical_003",
+      "eval_template": "residency_interview",
+      "pd_name": "Dr. Wilson",
+      "program": "Pacific Coast University Hospital IM",
+      "category": "clinical",
+      "opening_question": "A patient refuses a blood transfusion for religious reasons and their haemoglobin is 5.2. How do you approach this?",
+      "follow_up_pool": [
+        "At what point, if any, does patient autonomy become overridden by clinical necessity?",
+        "How do you document this interaction to protect both the patient and yourself legally?",
+        "What alternatives to transfusion would you consider and offer?",
+        "How do you manage your own emotions when you disagree with a patient's choice?"
+      ],
+      "img_specific": false
+    }
+  ]
+}

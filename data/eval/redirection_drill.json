@@ -1,0 +1,91 @@
+{
+  "name": "Redirection Drill — Steering a Talkative Patient",
+  "learner_level": "preclinical",
+  "_note": "Skill drill. Standard 4 metric keys re-pitched: medical_accuracy = politeness/tact, clinical_reasoning slot = steering & structure (the focus), communication_fluency = graceful interjection.",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences throughout",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors but understandable",
+        "3-4": "Frequent errors; listener must work",
+        "1-2": "Errors block most sentences"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Politeness & Tact",
+      "anchors": {
+        "9-10": "Redirects warmly and respectfully; patient never feels dismissed",
+        "7-8": "Polite; minor bluntness",
+        "5-6": "Gets the job done but a little abrupt",
+        "3-4": "Often curt or dismissive",
+        "1-2": "Rude or makes the patient feel shut down"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Steering & Structure",
+      "anchors": {
+        "9-10": "Consistently refocuses on the main issue; clear signposting; good use of time",
+        "7-8": "Mostly keeps focus; minor drift",
+        "5-6": "Some steering but lets the patient ramble often",
+        "3-4": "Rarely redirects; conversation runs away",
+        "1-2": "No control of the conversation at all"
+      }
+    },
+    "communication_fluency": {
+      "label": "Smooth Interjection",
+      "anchors": {
+        "9-10": "Interrupts gracefully at natural moments without jarring the patient",
+        "7-8": "Generally smooth interjections",
+        "5-6": "Interjections are a little clumsy",
+        "3-4": "Awkward or mistimed interruptions",
+        "1-2": "Cannot interject; either silent or talks over the patient"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "politely redirected the patient back to the main issue",
+      "required": true
+    },
+    {
+      "item": "used signposting (e.g. 'Can we come back to your cough?')",
+      "required": true
+    },
+    {
+      "item": "acknowledged the tangent briefly before steering",
+      "required": false
+    },
+    {
+      "item": "kept the consultation focused on the main complaint",
+      "required": true
+    },
+    {
+      "item": "interrupted gracefully without being rude",
+      "required": true
+    },
+    {
+      "item": "maintained warmth and rapport while steering",
+      "required": true
+    }
+  ],
+  "reference_output_type": "none"
+}

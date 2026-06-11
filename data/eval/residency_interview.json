@@ -1,0 +1,58 @@
+{
+  "name": "Residency Interview",
+  "output_sections": ["scores", "checklist", "corrections", "anki_cards", "summary"],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Language",
+      "anchors": {
+        "9-10": "No errors; polished professional register throughout",
+        "7-8": "Occasional minor errors; fully intelligible; appropriate register",
+        "5-6": "Some errors that slightly undermine professionalism",
+        "3-4": "Frequent errors; noticeable impact on impression",
+        "1-2": "Errors significantly impair communication"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Clinical Knowledge",
+      "anchors": {
+        "9-10": "Clinical examples are accurate, specific, and evidence-informed",
+        "7-8": "Mostly accurate; minor imprecision in clinical details",
+        "5-6": "Some clinical inaccuracies or vague clinical references",
+        "3-4": "Multiple clinical inaccuracies",
+        "1-2": "Significant clinical errors that raise concern"
+      }
+    },
+    "professionalism": {
+      "label": "Professionalism & Maturity",
+      "anchors": {
+        "9-10": "Outstanding composure, self-awareness, and ethical reasoning throughout",
+        "7-8": "Consistently professional; minor lapses in composure or framing",
+        "5-6": "Generally professional but occasional inappropriate framing or overconfidence",
+        "3-4": "Several lapses in professionalism or self-awareness",
+        "1-2": "Significant professionalism concerns"
+      }
+    },
+    "communication_fluency": {
+      "label": "Communication Fluency",
+      "anchors": {
+        "9-10": "Smooth, confident, natural delivery; appropriate pacing and signposting",
+        "7-8": "Mostly fluent; occasional hesitation",
+        "5-6": "Noticeable hesitation or filler words; some impact on impression",
+        "3-4": "Frequent hesitation or filler; significantly reduces impact",
+        "1-2": "Communication severely disrupted by fluency issues"
+      }
+    }
+  },
+  "checklist": [
+    {"item": "STAR format used for behavioral question (Situation, Task, Action, Result)", "required": true},
+    {"item": "specific concrete examples provided (not vague generalities)", "required": true},
+    {"item": "genuine and specific motivation for internal medicine articulated", "required": false},
+    {"item": "IMG background addressed directly and confidently if relevant", "required": false},
+    {"item": "appropriate professional and enthusiastic tone maintained", "required": true},
+    {"item": "questions answered fully without going off-topic", "required": true},
+    {"item": "self-awareness and growth mindset demonstrated", "required": false},
+    {"item": "program-specific knowledge or interest shown", "required": false}
+  ],
+  "empathy_markers": [],
+  "reference_output_type": null
+}

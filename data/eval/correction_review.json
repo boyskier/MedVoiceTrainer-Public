@@ -1,0 +1,66 @@
+{
+  "name": "Correction Review — Practising Your Own Past Mistakes",
+  "learner_level": "preclinical",
+  "_note": "Used by the dynamic 'Practice My Mistakes' session. The checklist is EMPTY here and is filled at runtime by review_builder (one item per target correction). Standard 4 metric keys re-pitched: medical_accuracy = whether the improved phrases were produced, clinical_reasoning slot = retention (avoiding the old mistakes).",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences throughout",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors but understandable",
+        "3-4": "Frequent errors; listener must work",
+        "1-2": "Errors block most sentences"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Use of Target Phrases",
+      "anchors": {
+        "9-10": "Produced the improved version of every target item naturally",
+        "7-8": "Produced most target items correctly",
+        "5-6": "Produced about half of the target items",
+        "3-4": "Produced few target items",
+        "1-2": "Did not produce the improved forms"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Retention (avoiding old mistakes)",
+      "anchors": {
+        "9-10": "Never fell back into the old error patterns",
+        "7-8": "Rarely repeated an old mistake",
+        "5-6": "Repeated some old mistakes",
+        "3-4": "Often repeated the old mistakes",
+        "1-2": "Repeated the old errors throughout"
+      }
+    },
+    "communication_fluency": {
+      "label": "Delivery",
+      "anchors": {
+        "9-10": "Smooth, confident delivery of the improved phrasing",
+        "7-8": "Generally smooth; minor hesitation",
+        "5-6": "Noticeable hesitation on the new phrasing",
+        "3-4": "Frequent stops when reaching for the improved form",
+        "1-2": "Delivery blocks understanding"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [],
+  "reference_output_type": "none"
+}

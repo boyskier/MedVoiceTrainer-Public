@@ -1,0 +1,29 @@
+{
+  "id": "gi_001",
+  "system": "gastroenterology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Nguyen",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "black tarry stools for 2 days and feeling dizzy",
+  "hpi_details": "3 episodes of melaena in 2 days, no haematemesis, dizziness on standing, mild epigastric discomfort, no frank PR bleeding",
+  "ideas": "thinks it might be from eating too much iron-rich food",
+  "concerns": "scared it could be bowel cancer",
+  "expectations": "wants a camera test done",
+  "pmh": "osteoarthritis (takes NSAIDs daily), no prior GI history",
+  "medications": "ibuprofen 400mg TDS (taking for 6 months), omeprazole 20mg OD (recently started)",
+  "social_hx": "non-smoker, occasional alcohol (3-4 units/week), works as a chef",
+  "reference_soap": {
+    "subjective": "45M with 2-day history of melaena x3 episodes, orthostatic dizziness, mild epigastric pain. Takes NSAIDs daily for OA. No haematemesis, no frank PR bleeding.",
+    "objective": "Likely upper GI bleed. Needs HR, BP (lying and standing), Hb, coagulation, urea (raised urea:creatinine ratio in upper GI bleed), group and screen.",
+    "assessment": "Upper GI haemorrhage, likely peptic ulcer disease secondary to NSAID use. DDx: Mallory-Weiss tear, oesophagitis, gastric malignancy.",
+    "plan": "Stop NSAIDs, IV access x2, IV PPI (80mg bolus then infusion), cross-match, urgent endoscopy (OGD) within 24hrs, surgical consult on standby, Blatchford score."
+  },
+  "learning_objectives": [
+    "Distinguish upper vs lower GI bleeding by symptom characterisation",
+    "Identify NSAID-related GI risk factors",
+    "Assess haemodynamic stability",
+    "Address ICE around cancer fear sensitively"
+  ]
+}

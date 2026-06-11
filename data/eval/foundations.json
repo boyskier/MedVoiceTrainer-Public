@@ -1,0 +1,115 @@
+{
+  "name": "Foundations — Medical English & Communication",
+  "learner_level": "preclinical",
+  "_note": "For pre-clinical (MS1-2) IMGs before clinical clerkships. Scores LANGUAGE and COMMUNICATION, never clinical reasoning/workup. Metric keys are kept identical to the standard rubric so self-assessment, scores, and DB columns keep working — only the labels and anchors are re-pitched for beginners.",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "ice_empathy",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences; natural word order throughout",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors in tense/articles/word order, but understandable",
+        "3-4": "Frequent errors; listener must work to understand",
+        "1-2": "Errors make most sentences hard to follow"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Medical Vocabulary",
+      "anchors": {
+        "9-10": "Correct, natural medical English for body parts and symptoms",
+        "7-8": "Mostly correct vocabulary; minor slips",
+        "5-6": "Uses some everyday words where a medical term would help, or small misuses",
+        "3-4": "Often reaches for the wrong word or cannot find the term",
+        "1-2": "Vocabulary gaps regularly block communication"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Communication & Rapport",
+      "anchors": {
+        "9-10": "Warm greeting, clear self-introduction, listens and responds to what the patient says",
+        "7-8": "Polite and responsive; minor lapses in rapport",
+        "5-6": "Gets the basics done but feels mechanical or misses the patient's cues",
+        "3-4": "Little warmth; talks over or ignores the patient's responses",
+        "1-2": "No rapport; patient is not acknowledged as a person"
+      }
+    },
+    "communication_fluency": {
+      "label": "Fluency & Pronunciation",
+      "anchors": {
+        "9-10": "Smooth, steady pace; clearly understandable pronunciation",
+        "7-8": "Occasional hesitation; pronunciation rarely impedes understanding",
+        "5-6": "Noticeable pauses or pronunciation that needs listener effort",
+        "3-4": "Frequent stops; pronunciation often unclear",
+        "1-2": "Halting delivery or pronunciation that blocks understanding"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "greeted the patient warmly",
+      "required": true
+    },
+    {
+      "item": "introduced themselves and their role (e.g. medical student)",
+      "required": true
+    },
+    {
+      "item": "confirmed or used the patient's name",
+      "required": true
+    },
+    {
+      "item": "opened with an open-ended question (e.g. 'What brings you in today?')",
+      "required": true
+    },
+    {
+      "item": "asked the patient to describe the main symptom in their own words",
+      "required": true
+    },
+    {
+      "item": "used plain language / explained any medical word used",
+      "required": true
+    },
+    {
+      "item": "showed empathy or acknowledged the patient's feelings",
+      "required": true
+    },
+    {
+      "item": "checked the patient's understanding or summarized back",
+      "required": false
+    },
+    {
+      "item": "asked if the patient had any questions",
+      "required": false
+    },
+    {
+      "item": "closed the conversation politely",
+      "required": true
+    }
+  ],
+  "empathy_markers": [
+    "used a warm greeting",
+    "used the patient's name at least once",
+    "acknowledged the patient's worry or discomfort",
+    "used a reassuring or supportive phrase",
+    "gave the patient space to speak without interrupting"
+  ],
+  "reference_output_type": "none"
+}

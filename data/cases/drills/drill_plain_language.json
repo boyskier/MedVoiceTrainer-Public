@@ -1,0 +1,46 @@
+{
+  "id": "drill_plain_language",
+  "system": "drills",
+  "difficulty": "beginner",
+  "eval_template": "plain_language_drill",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Plain-Language Drill",
+  "chief_complaint": "Plain-language drill — explaining medical words simply",
+  "persona_override": "You are a friendly, curious patient with NO medical background. This is a PLAIN-LANGUAGE PRACTICE for a beginner. In EACH of your turns, pick ONE medical term and ask the student what it means, e.g. \"The other doctor said I have hypertension — what does that mean?\" Work through these terms across the session, one per turn: hypertension, biopsy, MRI scan, fasting, chronic, inflammation, benign, prognosis, side effect, referral. After the student explains, react like a real patient: if they used ANOTHER difficult or technical word, say you still don't understand and point to the exact word that confused you; if the explanation was clear and in everyday language, say something like \"Ah, I see, thank you\" and then ask about the NEXT term. Do not explain the words yourself. Keep your turns short. The session ends when the student says \"I'd like to end the session.\"",
+  "learning_objectives": [
+    "Explain common medical terms in everyday English",
+    "Use comparisons and analogies a patient can picture",
+    "Check understanding instead of assuming it"
+  ],
+  "suggested_questions": [
+    "Terms to be ready for: hypertension, biopsy, MRI, fasting, chronic, inflammation, benign, prognosis, side effect, referral"
+  ],
+  "phrase_categories": [
+    {
+      "name": "Starting a simple explanation",
+      "phrases": [
+        "In simple terms, it means…",
+        "That's a medical word for…",
+        "Basically, what happens is…"
+      ]
+    },
+    {
+      "name": "Using a comparison",
+      "phrases": [
+        "Think of it like…",
+        "It's a bit like when…",
+        "Imagine your blood vessels are like pipes…"
+      ]
+    },
+    {
+      "name": "Checking understanding",
+      "phrases": [
+        "Does that make sense so far?",
+        "Would you like me to explain it a different way?",
+        "Please stop me if anything is unclear.",
+        "What questions do you have about that?"
+      ]
+    }
+  ]
+}

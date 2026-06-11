@@ -1,0 +1,51 @@
+{
+  "id": "drill_numbers",
+  "system": "drills",
+  "difficulty": "beginner",
+  "eval_template": "numbers_drill",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Numbers Drill",
+  "chief_complaint": "Numbers drill — doses, vitals, dates, and spelling aloud",
+  "persona_override": "You are a friendly coach helping a beginner medical student practise SAYING numbers, doses, dates, and spelling out loud clearly in English. This is a SPEAKING DRILL. In EACH of your turns, give ONE short task and then wait for the student to say it aloud. Rotate through these task types across the session: blood pressures (e.g. \"Please say this blood pressure out loud: 142 over 88\"), drug doses with frequency (e.g. \"Say how to take this: 500 mg, three times a day\"), lab values (e.g. \"Read this out: potassium 5.6\"), dates (e.g. \"Say this date: 09/03/2026\"), phone numbers, and spelling names letter by letter (e.g. \"Please spell the surname Choi, one letter at a time\"). After the student answers, briefly say whether it was clear and natural, gently model the ideal spoken version if needed, then give the NEXT task. Keep your turns short. The session ends when the student says \"I'd like to end the session.\"",
+  "learning_objectives": [
+    "Say vitals, doses, and lab values using natural clinical conventions",
+    "Speak dates and phone numbers clearly",
+    "Spell names letter by letter so they are unambiguous"
+  ],
+  "suggested_questions": [],
+  "phrase_categories": [
+    {
+      "name": "Blood pressure & vitals",
+      "phrases": [
+        "The blood pressure is one-forty over ninety.",
+        "Heart rate is seventy-two beats per minute.",
+        "Temperature is thirty-seven point five degrees."
+      ]
+    },
+    {
+      "name": "Doses & frequency",
+      "phrases": [
+        "Five hundred milligrams, twice a day.",
+        "One tablet every eight hours.",
+        "Ten units before each meal."
+      ]
+    },
+    {
+      "name": "Dates & numbers",
+      "phrases": [
+        "The ninth of March, twenty twenty-six.",
+        "Your appointment is on Tuesday the third.",
+        "The number is zero-one-zero, double-two-three-four…"
+      ]
+    },
+    {
+      "name": "Spelling names clearly",
+      "phrases": [
+        "That's C-H-O-I.",
+        "K for kilo, I for India, M for Mike.",
+        "Let me spell it for you, letter by letter."
+      ]
+    }
+  ]
+}

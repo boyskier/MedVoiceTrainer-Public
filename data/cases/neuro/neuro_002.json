@@ -1,0 +1,29 @@
+{
+  "id": "neuro_002",
+  "system": "neurology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Davis",
+  "age": 42,
+  "gender": "male",
+  "chief_complaint": "worst headache of my life, came on suddenly 2 hours ago",
+  "hpi_details": "thunderclap headache reaching maximum intensity within 1 minute, occipital and nuchal distribution, 10/10 severity, associated nausea and one vomit, mild photophobia, no focal weakness or speech problems, was lifting at the gym when it started",
+  "ideas": "thinks he pulled a muscle in his neck at the gym",
+  "concerns": "wife told him to come in immediately — he's quite reluctant and anxious about hospitals",
+  "expectations": "wants strong pain relief and to be told it's nothing serious",
+  "pmh": "no significant past medical history",
+  "medications": "none",
+  "social_hx": "non-smoker, drinks 15 units/week, works as a builder, married with 2 children",
+  "reference_soap": {
+    "subjective": "42M with sudden 10/10 thunderclap headache reaching maximum intensity in <1 minute during exertion, occipital/nuchal distribution, nausea, vomiting, photophobia. No focal neuro deficit. No prior similar headache.",
+    "objective": "CRITICAL — immediate non-contrast CT head required within 6hrs of onset. If CT negative: LP at 12hrs post-onset for xanthochromia. Neurological exam, BP, pupils, fundoscopy.",
+    "assessment": "Subarachnoid haemorrhage until proven otherwise — MEDICAL EMERGENCY. DDx: thunderclap migraine (diagnosis of exclusion), RCVS, sentinel headache, benign exertional headache.",
+    "plan": "IMMEDIATE CT head (non-contrast), IV access, analgesia (avoid NSAIDs if SAH confirmed), neurosurgical referral, LP if CT negative, strict bed rest, nimodipine if SAH confirmed, family notification."
+  },
+  "learning_objectives": [
+    "Recognise thunderclap headache as a neurological emergency",
+    "Apply Ottawa SAH Rule clinical assessment",
+    "Communicate urgency without catastrophising to an anxious reluctant patient",
+    "Explain why LP is needed even if CT is negative"
+  ]
+}

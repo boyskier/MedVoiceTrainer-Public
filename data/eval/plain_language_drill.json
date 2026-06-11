@@ -1,0 +1,95 @@
+{
+  "name": "Plain-Language Drill — Explaining Without Jargon",
+  "learner_level": "preclinical",
+  "_note": "Skill drill. Standard 4 metric keys re-pitched: medical_accuracy = correctness of the explanation, clinical_reasoning slot = clarity / jargon-free plain language (the drill's focus).",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences throughout",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors but understandable",
+        "3-4": "Frequent errors; listener must work",
+        "1-2": "Errors block most sentences"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Explanation Accuracy",
+      "anchors": {
+        "9-10": "Every explanation is medically correct and complete enough",
+        "7-8": "Mostly correct; minor imprecision",
+        "5-6": "Roughly right but some inaccuracy",
+        "3-4": "Several incorrect explanations",
+        "1-2": "Explanations are misleading"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Clarity & Plain Language",
+      "anchors": {
+        "9-10": "No unexplained jargon; uses everyday words and helpful analogies",
+        "7-8": "Mostly plain; rare jargon, quickly clarified",
+        "5-6": "Mixes in jargon that a patient might not follow",
+        "3-4": "Relies on medical terms a patient would not understand",
+        "1-2": "Explanation is as confusing as the original term"
+      }
+    },
+    "communication_fluency": {
+      "label": "Delivery & Pace",
+      "anchors": {
+        "9-10": "Smooth, well-paced, easy to follow",
+        "7-8": "Generally smooth; minor hesitation",
+        "5-6": "Noticeable pauses or awkward pacing",
+        "3-4": "Frequent stops disrupt understanding",
+        "1-2": "Delivery blocks understanding"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "explained the term using everyday words (no new jargon)",
+      "required": true
+    },
+    {
+      "item": "used a comparison or analogy where helpful",
+      "required": false
+    },
+    {
+      "item": "kept the explanation short and focused",
+      "required": true
+    },
+    {
+      "item": "the explanation was medically accurate",
+      "required": true
+    },
+    {
+      "item": "checked the patient's understanding (e.g. 'Does that make sense?')",
+      "required": true
+    },
+    {
+      "item": "invited questions",
+      "required": false
+    },
+    {
+      "item": "used Teach-back method to verify patient understanding",
+      "required": false
+    }
+  ],
+  "reference_output_type": "none"
+}

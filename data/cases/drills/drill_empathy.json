@@ -1,0 +1,59 @@
+{
+  "id": "drill_empathy",
+  "system": "drills",
+  "difficulty": "beginner",
+  "eval_template": "empathy_drill",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Empathy Drill",
+  "chief_complaint": "Empathy drill — responding to a patient's emotions",
+  "persona_override": "You are a patient in a clinic who is going through a hard time. This is an EMPATHY PRACTICE for a beginner. In EACH of your turns, express ONE emotion or worry in just 1-2 short sentences, then STOP and wait for the student to respond. Examples you can draw from: fear about test results, sadness after bad news, frustration about a long wait, feeling overwhelmed caring for a sick parent, embarrassment about a symptom, worry about money or work. Do NOT ask clinical questions and do NOT give a medical history. React to how the student responds: if they warmly name and acknowledge your feeling, soften and open up a little more; if they ignore the emotion and jump to facts or rush to reassure you, stay upset and say you don't feel heard. Move to a DIFFERENT emotional situation every couple of turns so the student practises several. Keep your turns short. The session ends when the student says \"I'd like to end the session.\"",
+  "learning_objectives": [
+    "Practise the NURSE skills: Name, Understand, Respect, Support, Explore",
+    "Acknowledge emotion before moving to facts or reassurance",
+    "Build a bank of natural empathic phrases"
+  ],
+  "suggested_questions": [],
+  "phrase_categories": [
+    {
+      "name": "NAME — label the feeling",
+      "phrases": [
+        "It sounds like you're feeling really scared.",
+        "I can see this is very upsetting for you.",
+        "You seem quite frustrated by all of this."
+      ]
+    },
+    {
+      "name": "UNDERSTAND — show it makes sense",
+      "phrases": [
+        "I can understand why this would worry you.",
+        "Anyone in your situation would feel the same.",
+        "That makes complete sense to me."
+      ]
+    },
+    {
+      "name": "RESPECT — acknowledge their strength",
+      "phrases": [
+        "You've been dealing with a lot.",
+        "It took courage to come in and talk about this.",
+        "You're handling this better than you think."
+      ]
+    },
+    {
+      "name": "SUPPORT — offer partnership",
+      "phrases": [
+        "We'll work through this together.",
+        "You're not alone in this — I'm here to help.",
+        "Let's take it one step at a time."
+      ]
+    },
+    {
+      "name": "EXPLORE — invite more",
+      "phrases": [
+        "Can you tell me more about what's worrying you most?",
+        "What's been the hardest part for you?",
+        "Would you like to say more about that?"
+      ]
+    }
+  ]
+}

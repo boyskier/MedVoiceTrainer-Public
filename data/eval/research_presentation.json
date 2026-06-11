@@ -1,0 +1,102 @@
+{
+  "name": "Research / Journal Club Presentation",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Language",
+      "anchors": {
+        "9-10": "No errors; academic register; precise use of research terminology",
+        "7-8": "Occasional errors; does not impair academic communication",
+        "5-6": "Some errors that reduce academic impression",
+        "3-4": "Frequent errors noticeable to audience",
+        "1-2": "Errors significantly impair communication"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Research Accuracy & Critical Appraisal",
+      "anchors": {
+        "9-10": "Methodology critiqued accurately; statistical concepts correct; limitations balanced",
+        "7-8": "Mostly accurate appraisal; minor gaps",
+        "5-6": "Some inaccuracies in methodology or statistics",
+        "3-4": "Multiple errors in critical appraisal",
+        "1-2": "Fundamental misunderstanding of research methodology"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Clinical Relevance & Synthesis",
+      "anchors": {
+        "9-10": "Clearly connects findings to clinical practice; nuanced discussion of applicability",
+        "7-8": "Good clinical connection; some nuance missing",
+        "5-6": "Superficial clinical connection",
+        "3-4": "Little connection between research and clinical practice",
+        "1-2": "No clinical synthesis"
+      }
+    },
+    "communication_fluency": {
+      "label": "Presentation Fluency",
+      "anchors": {
+        "9-10": "Engaging, confident, well-structured; fields questions expertly",
+        "7-8": "Mostly fluent; good structure; occasional hesitation",
+        "5-6": "Adequate but some hesitation or awkward structure",
+        "3-4": "Frequent hesitation; poor structure",
+        "1-2": "Severely disrupted"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy and professionalism; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; polite and professional",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized",
+        "1-2": "No empathic response; dismissive or unprofessional"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "paper introduced with background/rationale",
+      "required": true
+    },
+    {
+      "item": "study design correctly identified and described",
+      "required": true
+    },
+    {
+      "item": "primary outcome clearly stated",
+      "required": true
+    },
+    {
+      "item": "main results accurately summarized",
+      "required": true
+    },
+    {
+      "item": "at least 2 methodological limitations identified",
+      "required": true
+    },
+    {
+      "item": "statistical significance and clinical significance distinguished",
+      "required": true
+    },
+    {
+      "item": "clinical applicability to own practice discussed",
+      "required": true
+    },
+    {
+      "item": "questions from attendees handled accurately",
+      "required": false
+    },
+    {
+      "item": "PICO framework referenced explicitly or implicitly",
+      "required": false
+    }
+  ],
+  "empathy_markers": [],
+  "reference_output_type": null
+}

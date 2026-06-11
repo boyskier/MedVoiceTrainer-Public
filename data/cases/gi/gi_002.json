@@ -1,0 +1,29 @@
+{
+  "id": "gi_002",
+  "system": "gastroenterology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Thompson",
+  "age": 34,
+  "gender": "female",
+  "chief_complaint": "recurrent abdominal pain and diarrhoea for 8 months",
+  "hpi_details": "crampy lower abdominal pain, worse before bowel movements, relieved slightly after, 4-6 loose stools per day, occasional blood and mucus, 6kg unintentional weight loss, fatigue, no fever currently",
+  "ideas": "thinks she has IBS because she's stressed at work",
+  "concerns": "worried about the blood — Google told her it could be cancer",
+  "expectations": "wants something to stop the diarrhoea so she can function at work",
+  "pmh": "appendicectomy at 19, no other medical history",
+  "medications": "none regular, occasional ibuprofen for period pain",
+  "social_hx": "non-smoker, social drinker, works in finance (high stress), no recent travel",
+  "reference_soap": {
+    "subjective": "34F with 8-month history of crampy lower abdominal pain, 4-6 loose stools/day with blood and mucus, 6kg weight loss, fatigue. Stress attributed by patient. No travel hx. Takes ibuprofen occasionally.",
+    "objective": "Needs FBC (anaemia?), CRP/ESR, calprotectin, stool culture/MC&S, colonoscopy with biopsy.",
+    "assessment": "Inflammatory bowel disease (Crohn's vs UC) most likely. DDx: infective colitis, IBS (diagnosis of exclusion), colorectal malignancy (less likely at 34 but must exclude), coeliac disease.",
+    "plan": "Urgent outpatient or inpatient workup: bloods, stool studies, colonoscopy referral. Advise stopping NSAIDs. Address cancer anxiety with reassurance and plan. GI referral."
+  },
+  "learning_objectives": [
+    "Characterise lower GI symptoms systematically (SOCRATES for pain, stool chart features)",
+    "Identify red flag symptoms: PR blood, weight loss, nocturnal symptoms",
+    "Explore extraintestinal manifestations of IBD",
+    "Provide structured cancer reassurance while arranging appropriate investigation"
+  ]
+}

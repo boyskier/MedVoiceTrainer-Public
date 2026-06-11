@@ -1,0 +1,108 @@
+{
+  "name": "SPIKES Protocol — Breaking Bad News",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "ice_empathy",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Language",
+      "anchors": {
+        "9-10": "No errors; compassionate, clear medical register throughout",
+        "7-8": "Occasional minor errors; fully intelligible",
+        "5-6": "Some errors; does not significantly impair communication",
+        "3-4": "Frequent errors noticeable to patient",
+        "1-2": "Errors undermine ability to communicate sensitively"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Medical Accuracy",
+      "anchors": {
+        "9-10": "All clinical information conveyed accurately and at appropriate lay level",
+        "7-8": "Mostly accurate; minor simplification issues",
+        "5-6": "Some inaccuracies in medical information delivered",
+        "3-4": "Multiple medical errors in information given to patient",
+        "1-2": "Dangerous or significantly incorrect information delivered"
+      }
+    },
+    "communication_fluency": {
+      "label": "Communication Fluency",
+      "anchors": {
+        "9-10": "Deliberate, compassionate pacing; silences used therapeutically",
+        "7-8": "Mostly appropriate pacing; occasional awkward transitions",
+        "5-6": "Some inappropriately rushed segments",
+        "3-4": "Frequently rushed or awkward; poor pacing",
+        "1-2": "Severely disrupted by fluency or pacing issues"
+      }
+    },
+    "professionalism": {
+      "label": "Empathy & Professionalism",
+      "anchors": {
+        "9-10": "Exceptional empathy; responds to all patient cues; creates psychological safety",
+        "7-8": "Good empathy; acknowledges emotion; some cues missed",
+        "5-6": "Adequate but mechanical empathy; some emotional cues missed",
+        "3-4": "Little empathic response; information delivery prioritized over patient emotion",
+        "1-2": "No empathic response; patient distress ignored"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "S — Setting: ensured private setting and patient comfort acknowledged",
+      "required": true
+    },
+    {
+      "item": "P — Perception: asked what patient already knows/understands",
+      "required": true
+    },
+    {
+      "item": "I — Invitation: asked permission before sharing information",
+      "required": true
+    },
+    {
+      "item": "K — Knowledge: delivered news clearly without jargon; warning shot used",
+      "required": true
+    },
+    {
+      "item": "E — Emotions: acknowledged and responded to patient's emotional reaction",
+      "required": true
+    },
+    {
+      "item": "S — Strategy: provided clear plan and next steps",
+      "required": true
+    },
+    {
+      "item": "avoided medical jargon when delivering news",
+      "required": true
+    },
+    {
+      "item": "checked patient understanding at key points",
+      "required": false
+    },
+    {
+      "item": "offered to involve family/support person",
+      "required": false
+    },
+    {
+      "item": "provided written or printed information offer",
+      "required": false
+    },
+    {
+      "item": "used Teach-back method to verify patient understanding",
+      "required": false
+    }
+  ],
+  "empathy_markers": [
+    "named the patient's emotion explicitly",
+    "used silence therapeutically (allowed patient to process)",
+    "touched on patient's values or priorities",
+    "normalized patient's emotional response",
+    "used patient's name",
+    "reflective listening phrase used"
+  ],
+  "reference_output_type": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "pulm_001",
+  "system": "pulmonology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Roberts",
+  "age": 65,
+  "gender": "male",
+  "chief_complaint": "worsening shortness of breath and productive cough for 5 days",
+  "hpi_details": "baseline dyspnoea (GOLD 2 COPD), acutely worse over 5 days, increased sputum (yellow-green, increased volume), low-grade fever 37.8°C, no haemoptysis, using rescue inhaler every 2 hours",
+  "ideas": "thinks it is another chest infection like he gets every winter",
+  "concerns": "worried he might need to go to hospital as he lives alone",
+  "expectations": "wants antibiotics and something to help him breathe",
+  "pmh": "COPD diagnosed 5 years ago, previous smoker, no hospitalisation for COPD in 2 years",
+  "medications": "tiotropium 18mcg OD, salmeterol/fluticasone 50/500mcg BD, salbutamol 100mcg PRN",
+  "social_hx": "ex-smoker (quit 5 years ago, 40 pack-years), retired plumber, lives alone, no pets",
+  "reference_soap": {
+    "subjective": "65M with known COPD, 5-day acute exacerbation with increased dyspnoea, purulent sputum, and low-grade fever. Using rescue inhaler Q2h.",
+    "objective": "O2 saturation, RR, HR, CXR, FEV1 if able, sputum culture, ABG if severe, FBC, CRP.",
+    "assessment": "Acute exacerbation of COPD (AECOPD), likely infective trigger. DDx: pneumonia, pneumothorax, PE, decompensated heart failure.",
+    "plan": "Controlled O2 (target 88-92%), nebulised bronchodilators, short course systemic corticosteroids (prednisolone 30-40mg x5 days), antibiotics (amoxicillin or doxycycline), consider hospitalisation given social circumstances."
+  },
+  "learning_objectives": [
+    "Assess AECOPD severity using clinical markers",
+    "Distinguish AECOPD from pneumonia, PE, cardiac failure",
+    "Review inhaler technique and adherence",
+    "Incorporate social circumstances into management plan"
+  ]
+}

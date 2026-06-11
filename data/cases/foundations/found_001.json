@@ -1,0 +1,32 @@
+{
+  "id": "found_001",
+  "system": "foundations",
+  "difficulty": "beginner",
+  "eval_template": "foundations",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Emily Carter",
+  "age": 24,
+  "gender": "female",
+  "chief_complaint": "a runny nose and sore throat for three days",
+  "hpi_details": "started with a scratchy throat, now a blocked and runny nose, mild cough, no fever, no shortness of breath. Feels tired. Drinks water and rests but it is not getting better.",
+  "ideas": "thinks it is just a common cold",
+  "concerns": "worried because she has an important exam next week and cannot afford to be sick",
+  "expectations": "wants to know what she can do to feel better faster",
+  "pmh": "none",
+  "medications": "none",
+  "social_hx": "university student, does not smoke",
+  "learning_objectives": [
+    "Greet the patient and introduce yourself as a medical student",
+    "Open with an open-ended question and let the patient describe symptoms in their own words",
+    "Practise everyday symptom vocabulary: runny nose, sore throat, cough, blocked nose, tired",
+    "Acknowledge the patient's worry about the upcoming exam"
+  ],
+  "suggested_questions": [
+    "What brings you in today?",
+    "How long have you had these symptoms?",
+    "Do you have a sore throat, a runny nose, or a cough?",
+    "Have you had a fever?",
+    "Is anything stopping you from resting?"
+  ]
+}
