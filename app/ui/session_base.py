@@ -106,6 +106,8 @@ class SessionBase:
         self._stop_btn = ttk.Button(ctrl_frame, text="■ End & Analyze", command=self._on_stop, state=tk.DISABLED)
         self._stop_btn.pack(side=tk.LEFT, padx=4, pady=6)
 
+        self._add_extra_controls(ctrl_frame)
+
         self._timer_label = ttk.Label(ctrl_frame, text="⏱ 00:00", style="Status.TLabel")
         self._timer_label.pack(side=tk.LEFT, padx=10)
 
@@ -501,6 +503,8 @@ class SessionBase:
             if self._session_id:
                 queries.append_turn(self._session_id, turn)
             self._append_transcript_turn(role, text, turn_idx)
+            if role == "user":
+                self._on_user_turn(text)
 
         elif etype == "status":
             self._set_mic_status("listening", event.get("text", ""))
@@ -779,3 +783,9 @@ class SessionBase:
 
     def _build_system_prompt(self) -> str:
         raise NotImplementedError
+
+    def _add_extra_controls(self, ctrl_frame: tk.Frame) -> None:
+        """Subclasses may add mode-specific buttons to the controls bar."""
+
+    def _on_user_turn(self, text: str) -> None:
+        """Called on the main thread for every transcribed student turn."""

@@ -1,0 +1,145 @@
+{
+  "_note": "Generic history-taking domains used by the open-book live checklist, the 'I'm stuck' hint button, and the guided-script fallback. Keywords are lowercase substrings matched against the STUDENT's transcript turns — keep them short, high-precision phrases a student would actually say. No API calls involved.",
+  "domains": [
+    {
+      "key": "opening",
+      "label": "Open the consultation",
+      "keywords": ["brings you in", "how can i help", "what can i do for you", "tell me what happened", "tell me more about", "how are you feeling today"],
+      "questions": [
+        "What brings you in today?",
+        "How can I help you today?"
+      ]
+    },
+    {
+      "key": "onset_duration",
+      "label": "Onset & duration",
+      "keywords": ["when did", "how long", "since when", "when it started", "did it start", "first notice"],
+      "questions": [
+        "When did it start?",
+        "How long have you had this?"
+      ]
+    },
+    {
+      "key": "location",
+      "label": "Location / site",
+      "keywords": ["where exactly", "where do you feel", "where is the", "which part", "point to", "show me where"],
+      "questions": [
+        "Where exactly do you feel it?",
+        "Can you point to where it is?"
+      ]
+    },
+    {
+      "key": "character",
+      "label": "Character / quality",
+      "keywords": ["describe", "what does it feel like", "what kind of", "sharp or dull", "feel like"],
+      "questions": [
+        "Can you describe what it feels like?",
+        "What kind of pain is it — sharp, dull, burning?"
+      ]
+    },
+    {
+      "key": "severity",
+      "label": "Severity (1–10)",
+      "keywords": ["scale of", "out of ten", "out of 10", "how bad", "how severe", "1 to 10", "one to ten"],
+      "questions": [
+        "On a scale of one to ten, how bad is it?",
+        "How much does it affect your daily life?"
+      ]
+    },
+    {
+      "key": "aggravating_relieving",
+      "label": "Aggravating / relieving factors",
+      "keywords": ["make it better", "make it worse", "makes it better", "makes it worse", "anything help", "worse when", "better when", "trigger", "relieve"],
+      "questions": [
+        "Does anything make it better or worse?",
+        "Have you noticed anything that triggers it?"
+      ]
+    },
+    {
+      "key": "progression",
+      "label": "Timing & progression",
+      "keywords": ["getting worse", "getting better", "come and go", "comes and goes", "constant", "changed since", "all the time", "how often"],
+      "questions": [
+        "Has it changed since it started?",
+        "Does it come and go, or is it there all the time?"
+      ]
+    },
+    {
+      "key": "associated_symptoms",
+      "label": "Associated symptoms",
+      "keywords": ["any other symptom", "anything else", "along with", "at the same time", "also noticed", "associated"],
+      "questions": [
+        "Have you noticed any other symptoms along with it?",
+        "Is there anything else that's been bothering you?"
+      ]
+    },
+    {
+      "key": "pmh",
+      "label": "Past medical history",
+      "keywords": ["medical history", "past medical", "health problems", "health conditions", "been diagnosed", "any conditions", "medical problems", "been told you have", "seen a doctor before"],
+      "questions": [
+        "Do you have any medical conditions I should know about?",
+        "Have you ever been diagnosed with anything in the past?"
+      ]
+    },
+    {
+      "key": "medications",
+      "label": "Medications",
+      "keywords": ["medication", "medicine", "tablets", "pills", "taking any", "prescribed"],
+      "questions": [
+        "Are you taking any medications at the moment?",
+        "Do you take any tablets or medicines regularly?"
+      ]
+    },
+    {
+      "key": "allergies",
+      "label": "Allergies",
+      "keywords": ["allerg"],
+      "questions": [
+        "Do you have any allergies, especially to medicines?"
+      ]
+    },
+    {
+      "key": "social_hx",
+      "label": "Social history",
+      "keywords": ["smoke", "smoking", "alcohol", "drink", "who do you live", "live alone", "live with", "your work", "occupation", "what do you do for"],
+      "questions": [
+        "Do you smoke, or drink alcohol?",
+        "Who do you live with at home?"
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "Patient's ideas (I)",
+      "keywords": ["what do you think is", "your own thoughts", "what you think might", "any idea what", "causing this"],
+      "questions": [
+        "Do you have any thoughts about what might be causing this?"
+      ]
+    },
+    {
+      "key": "concerns",
+      "label": "Patient's concerns (C)",
+      "keywords": ["worried", "worry", "worries", "concern", "afraid", "scares"],
+      "questions": [
+        "Is there anything in particular you're worried about?"
+      ]
+    },
+    {
+      "key": "expectations",
+      "label": "Patient's expectations (E)",
+      "keywords": ["hoping", "expect", "what would you like", "hoped we could"],
+      "questions": [
+        "What were you hoping we could do for you today?"
+      ]
+    },
+    {
+      "key": "summary_closing",
+      "label": "Summarize & close",
+      "keywords": ["summarize", "summarise", "to sum up", "let me make sure i", "just to recap", "recap", "so far you've told me", "like to summarize"],
+      "questions": [
+        "Let me summarize what we've discussed to make sure I've got it right.",
+        "Before we finish — is there anything else you'd like to mention?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Basic-Science Viva — Speaking About Foundational Medicine",
+  "learner_level": "preclinical",
+  "_note": "Oral exam on basic science for pre-clinical IMGs. Scores ENGLISH and the ability to EXPLAIN concepts aloud, not exhaustive factual mastery. Standard 5 metric keys kept so scores/DB/self-assessment keep working; labels re-pitched. medical_accuracy = correctness of the basic-science content; clinical_reasoning slot = clarity/structure of the spoken explanation.",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences throughout",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors in tense/articles/word order, but understandable",
+        "3-4": "Frequent errors; examiner must work to follow",
+        "1-2": "Errors block most sentences"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Basic-Science Accuracy",
+      "anchors": {
+        "9-10": "Concepts explained correctly with the right terms; misconceptions absent",
+        "7-8": "Mostly correct; minor imprecision",
+        "5-6": "Core idea right but with gaps or loose terminology",
+        "3-4": "Several factual errors or confused concepts",
+        "1-2": "Largely incorrect understanding"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Clarity of Explanation",
+      "anchors": {
+        "9-10": "Explanations are logically ordered and easy to follow; defines terms before using them",
+        "7-8": "Generally well structured; minor jumps",
+        "5-6": "Understandable but disorganised or list-like",
+        "3-4": "Hard to follow; ideas out of order",
+        "1-2": "No discernible structure"
+      }
+    },
+    "communication_fluency": {
+      "label": "Pronunciation & Fluency",
+      "anchors": {
+        "9-10": "Medical terms pronounced clearly; smooth, confident delivery",
+        "7-8": "Mostly clear; occasional hesitation or mispronunciation",
+        "5-6": "Understandable but effortful; several terms mispronounced",
+        "3-4": "Frequent long pauses or unclear terms",
+        "1-2": "Very hard to understand"
+      }
+    },
+    "professionalism": {
+      "label": "Composure & Engagement",
+      "anchors": {
+        "9-10": "Calm, engaged, asks for clarification appropriately; handles not-knowing gracefully",
+        "7-8": "Composed and responsive",
+        "5-6": "Some nervousness but stays engaged",
+        "3-4": "Often flustered or disengaged",
+        "1-2": "Unable to sustain the exchange"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "answered the examiner's question rather than avoiding it",
+      "required": true
+    },
+    {
+      "item": "used at least some correct anatomical/physiological terminology in English",
+      "required": true
+    },
+    {
+      "item": "explained a concept in a logical order (not just a list of words)",
+      "required": false
+    },
+    {
+      "item": "asked the examiner to repeat or clarify when unsure (instead of guessing silently)",
+      "required": false
+    },
+    {
+      "item": "spoke in full sentences rather than single words",
+      "required": false
+    }
+  ],
+  "reference_output_type": "none"
+}

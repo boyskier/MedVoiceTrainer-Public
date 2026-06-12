@@ -10,7 +10,7 @@ from app.analysis.prompt_builder import build_interview_prompt
 
 
 def _load_interview_scenarios() -> dict[str, list[dict]]:
-    cats: dict[str, list[dict]] = {"behavioral": [], "clinical": [], "img_specific": []}
+    cats: dict[str, list[dict]] = {"behavioral": [], "clinical": [], "img_specific": [], "basic_science": []}
     if not os.path.isdir(config.INTERVIEW_BANKS_DIR):
         return cats
     for fname in os.listdir(config.INTERVIEW_BANKS_DIR):
@@ -42,6 +42,7 @@ CATEGORY_LABELS = {
     "behavioral": "Behavioral",
     "clinical": "Clinical",
     "img_specific": "IMG-Specific",
+    "basic_science": "Basic Science Viva",
 }
 
 
@@ -62,7 +63,7 @@ class InterviewTab(SessionBase):
         self._cat_var = tk.StringVar()
         self._cat_cb = ttk.Combobox(
             selector, textvariable=self._cat_var,
-            values=[CATEGORY_LABELS[k] for k in ["behavioral", "clinical", "img_specific"]],
+            values=[CATEGORY_LABELS[k] for k in ["behavioral", "clinical", "img_specific", "basic_science"]],
             width=16, state="readonly",
         )
         self._cat_cb.grid(row=0, column=1, padx=4, pady=6)

@@ -176,6 +176,15 @@ def build_patient_prompt(case_data: dict) -> str:
 
 
 def build_interview_prompt(scenario: dict) -> str:
+    # Non-PD interview formats (e.g. the basic-science viva examiner) supply
+    # their own persona instead of the residency-interview template.
+    override = scenario.get("persona_override")
+    if override:
+        prompt = override.strip()
+        opening = scenario.get("opening_question")
+        if opening:
+            prompt += f"\n\nYour opening question: {opening}"
+        return prompt
     return INTERVIEW_SYSTEM_PROMPT.format(
         pd_name=scenario.get("pd_name", "Dr. Smith"),
         program=scenario.get("program", "this program"),
@@ -215,6 +224,23 @@ CASE GROUND TRUTH (use this to assess what was elicited vs missed):
             "student's performance (e.g. reward detecting and adapting to it; do not "
             "penalize the student for information the patient deliberately withheld):\n"
             + case_data["active_complexity_modifier"]
+        )
+
+    aids = case_data.get("practice_aids")
+    if aids:
+        used = []
+        if aids.get("open_book"):
+            used.append(f"an open-book answer sheet ({aids.get('sections_revealed', 0)} section(s) revealed)")
+        if aids.get("guided_script"):
+            used.append("a guided script of model questions to read aloud")
+        if aids.get("hints_used"):
+            used.append(f"{aids['hints_used']} 'next question' hint(s)")
+        parts.append(
+            "\nPRACTICE AIDS: This was a deliberately scaffolded beginner session — the student used "
+            + ", ".join(used) +
+            ". Do NOT penalize reliance on these aids or missing information the aids made obvious. "
+            "Focus feedback on spoken language quality, pronunciation-relevant phrasing, and rapport. "
+            "Be encouraging, and suggest one concrete way to depend less on the scaffolding next time."
         )
 
     transcript_text = "\n".join(

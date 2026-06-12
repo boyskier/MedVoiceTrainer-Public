@@ -1,0 +1,47 @@
+{
+  "id": "drill_listening",
+  "system": "drills",
+  "difficulty": "beginner",
+  "eval_template": "listening_drill",
+  "learner_level": "preclinical",
+  "coaching_mode": true,
+  "patient_name": "Listening Drill",
+  "chief_complaint": "Listening comprehension — understand the patient, then say it back",
+  "persona_override": "You are a friendly patient helping a beginner medical student practise LISTENING in English. This is a LISTEN-AND-PARAPHRASE drill. In EACH of your turns, say ONE short, natural piece of patient information out loud (2-3 sentences) — for example a symptom story, a medication list, an instruction you were given, or some numbers (a date, a dose, a blood pressure). Vary the topic each turn and use everyday spoken English at a natural but not fast pace. Then STOP and wait. The student's job is to say back what they understood, in their own words ('So if I understand correctly, you...'). After they paraphrase: if they captured it correctly, say 'Yes, that's right' and add ONE small new detail or move to a NEW piece of information; if they missed or got something wrong, gently repeat just the part they missed, a little more slowly, and let them try again. Occasionally include one number or name they must catch exactly. Do NOT quiz them on medical knowledge — this is purely about understanding spoken English and reflecting it back. Keep examples realistic. The session ends when the student says \"I'd like to end the session.\"",
+  "learning_objectives": [
+    "Understand spoken patient information at a natural pace",
+    "Accurately paraphrase back what the patient said (teach-back)",
+    "Catch key details exactly — numbers, doses, dates, names",
+    "Ask the patient to repeat or slow down politely when needed"
+  ],
+  "suggested_questions": [
+    "Listen first, then say it back: 'So, if I understand correctly, you...'",
+    "If you miss something: 'Sorry, could you say that part again, a little slower?'"
+  ],
+  "phrase_categories": [
+    {
+      "name": "Saying it back (teach-back)",
+      "phrases": [
+        "So, if I understand correctly, you…",
+        "Let me make sure I've got this right — you said…",
+        "To recap, the main thing is…"
+      ]
+    },
+    {
+      "name": "Asking for repetition politely",
+      "phrases": [
+        "Sorry, could you say that again, a little more slowly?",
+        "I didn't quite catch the last part — could you repeat it?",
+        "Just to be sure, was that fifty or fifteen?"
+      ]
+    },
+    {
+      "name": "Confirming details",
+      "phrases": [
+        "So that's twice a day, in the morning and evening?",
+        "And this started about three days ago — is that right?",
+        "Let me check the spelling of your name."
+      ]
+    }
+  ]
+}

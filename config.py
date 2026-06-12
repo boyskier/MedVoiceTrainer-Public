@@ -18,6 +18,7 @@ INTERVIEW_BANKS_DIR = os.path.join(DATA_DIR, "interview_banks")
 EVAL_DIR = os.path.join(DATA_DIR, "eval")
 CUSTOM_DIR = os.path.join(DATA_DIR, "custom")
 FOUNDATIONS_PHRASES_PATH = os.path.join(DATA_DIR, "foundations_phrases.json")
+HISTORY_DOMAINS_PATH = os.path.join(DATA_DIR, "history_domains.json")
 
 CASE_SYSTEMS = ["foundations", "drills", "cardio", "gi", "pulm", "neuro"]
 

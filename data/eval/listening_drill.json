@@ -1,0 +1,87 @@
+{
+  "name": "Listening Drill — Understand & Paraphrase",
+  "learner_level": "preclinical",
+  "_note": "Skill drill focused on RECEPTIVE English. Standard 5 metric keys re-pitched: medical_accuracy = accuracy of what was understood (did the paraphrase match the patient's facts), clinical_reasoning slot = completeness/teach-back quality, communication_fluency = clarity of the spoken paraphrase. Score listening accuracy from how faithfully the student's turns reflect the patient's preceding turns in the transcript.",
+  "output_sections": [
+    "scores",
+    "checklist",
+    "corrections",
+    "anki_cards",
+    "summary"
+  ],
+  "metrics": {
+    "grammar": {
+      "label": "Grammar & Sentences",
+      "anchors": {
+        "9-10": "Clear, well-formed sentences throughout",
+        "7-8": "Occasional minor errors; meaning always clear",
+        "5-6": "Some errors but understandable",
+        "3-4": "Frequent errors; listener must work",
+        "1-2": "Errors block most sentences"
+      }
+    },
+    "medical_accuracy": {
+      "label": "Listening Accuracy",
+      "anchors": {
+        "9-10": "Paraphrases match the patient's facts every time, including numbers and names",
+        "7-8": "Mostly accurate; rare small slip",
+        "5-6": "Gets the gist but loses or alters some details",
+        "3-4": "Several details misheard or invented",
+        "1-2": "Frequently misunderstands what was said"
+      }
+    },
+    "clinical_reasoning": {
+      "label": "Teach-back Completeness",
+      "anchors": {
+        "9-10": "Reflects back all key points and checks understanding",
+        "7-8": "Captures most key points",
+        "5-6": "Captures the main point but omits details",
+        "3-4": "Partial, fragmentary teach-back",
+        "1-2": "Little or no attempt to reflect back"
+      }
+    },
+    "communication_fluency": {
+      "label": "Clarity of Paraphrase",
+      "anchors": {
+        "9-10": "Says it back smoothly and clearly in their own words",
+        "7-8": "Mostly clear; minor hesitation",
+        "5-6": "Understandable but halting or word-for-word",
+        "3-4": "Hard to follow",
+        "1-2": "Cannot produce an intelligible paraphrase"
+      }
+    },
+    "professionalism": {
+      "label": "Politeness & Repair",
+      "anchors": {
+        "9-10": "Asks to repeat/slow down politely and naturally when needed",
+        "7-8": "Generally polite and appropriate",
+        "5-6": "Adequate but mechanical",
+        "3-4": "Rarely seeks clarification when clearly needed",
+        "1-2": "No repair strategies; gives up or guesses"
+      }
+    }
+  },
+  "checklist": [
+    {
+      "item": "paraphrased the patient's information back in their own words (teach-back)",
+      "required": true
+    },
+    {
+      "item": "correctly captured at least one exact detail (number, dose, date, or name)",
+      "required": true
+    },
+    {
+      "item": "politely asked for repetition or slower speech when something was missed",
+      "required": false
+    },
+    {
+      "item": "confirmed understanding before moving on",
+      "required": false
+    },
+    {
+      "item": "did not invent details the patient never said",
+      "required": false
+    }
+  ],
+  "reference_output_type": "none"
+}
